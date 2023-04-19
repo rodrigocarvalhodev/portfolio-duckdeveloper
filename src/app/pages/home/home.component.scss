@@ -7,7 +7,7 @@
         flex-direction: column;
         justify-content: center;
         width: 50%;
-        height: 70vh;
+        height: 75vh;
         margin: 0 auto;
         font-size: 2.5rem;
 
@@ -102,6 +102,13 @@
                 max-width: 100%;
             }
         }
+    }
+}
+
+// with zoom
+@media(max-width: 1700px) {
+    #container {
+        height: 70vh;
     }
 }
 

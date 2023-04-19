@@ -3,9 +3,9 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 35px;
+    padding: 0 35px;
 
-    height: 15vh;
+    height: 10vh;
 
     margin: 0 auto;
 
@@ -30,7 +30,7 @@ header {
         }
     }
 
-    nav {
+    #navbar {
         display: flex;
     
         font-size: 1.1rem;
@@ -114,15 +114,36 @@ header {
             transition: 0.5s;
         }
     }
+
+    .menuburger {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+    }
 }
 
 @media(max-width: 1700px) {
     header {
+        height: 15vh;
         & > #logo > a {
             img {
                 height: 48px;
                 width: 48px;
             }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    header {
+
+        #navbar {
+            display: none;
+        }
+
+        .menuburger {
+            visibility: visible;
+            display: block;
         }
     }
 }
