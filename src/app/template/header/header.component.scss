@@ -3,9 +3,9 @@ header {
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 35px;
+    padding: 15px 35px;
 
-    height: 10vh;
+    height: 15vh;
 
     margin: 0 auto;
 
@@ -112,6 +112,17 @@ header {
             color: #9030ce;
             background-color: #FFF;
             transition: 0.5s;
+        }
+    }
+}
+
+@media(max-width: 1700px) {
+    header {
+        & > #logo > a {
+            img {
+                height: 48px;
+                width: 48px;
+            }
         }
     }
 }
