@@ -1,0 +1,26 @@
+<header>
+    <div id="logo">
+        <a routerLink="/" class="logo">
+            <img src="/assets/logo2.png" alt="Logo">
+        </a>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a [ngClass]="routerLink === '/home' ? 'line' : ''" routerLink="/">Inicio</a>
+            </li>
+
+            <li>
+                <a [ngClass]="routerLink === '/about' ? 'line' : ''" routerLink="/about">Sobre mim</a>
+            </li>
+
+            <li>
+                <a [ngClass]="routerLink === '/projects' ? 'line' : ''" routerLink="/projects">Projetos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="buttons">
+        <a routerLink="/contact">Contato</a>
+    </div>
+</header>

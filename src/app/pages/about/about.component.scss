@@ -1,0 +1,23 @@
+.container {
+    font-size: 2rem;
+    margin: 0 auto;
+    color: white;
+    width: 50%;
+    height: 75vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: justify;
+
+    p {
+        font-size: 1.3rem;
+        max-width: 60%;
+    }
+
+    .tech {
+        color: #9030ce;
+    }
+}
