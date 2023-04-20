@@ -37,6 +37,17 @@ footer {
             }
         }
     }
+
+    #copyright {
+        p {
+            a {
+                cursor: pointer;
+                font-weight: 400;
+                color: #9030ce;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 @media(max-width: 600px) {
