@@ -4,7 +4,10 @@
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 
     width: 100%;
     padding: 25px 35px;
@@ -12,4 +15,34 @@ footer {
     text-align: center;
 
     font-size: 1.1rem;
+
+    #sociais {
+        display: none;
+
+        ul {
+            display: flex;
+            gap: 20px;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    span {
+                        font-size: 1.5rem;
+                        padding: 15px;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    footer {
+        #sociais {
+            display: flex;
+        }
+    }
 }
