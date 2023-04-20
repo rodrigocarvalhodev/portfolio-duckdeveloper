@@ -4,7 +4,7 @@
             <img src="/assets/logo2.png" alt="Logo">
         </a>
     </div>
-    <nav id="navbar">
+    <nav id="navbar" [ngClass]="burgerOpened ? 'active' : ''">
         <ul>
             <li>
                 <a [ngClass]="routerLink === '/home' ? 'line' : ''" routerLink="/">Inicio</a>
@@ -19,6 +19,10 @@
             </li>
         </ul>
     </nav>
+
+    <button id="menuburger" (click)="this.openMenuBurger()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
 
     <div id="buttons">
         <a routerLink="/contact">Contato</a>

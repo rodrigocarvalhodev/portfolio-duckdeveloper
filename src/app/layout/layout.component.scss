@@ -3,7 +3,7 @@ main {
     height: 100%;
 }
 
-.sociais {
+#sociais {
     display: block;
 
     position: fixed;
@@ -44,5 +44,11 @@ main {
                 font-size: 1.2rem;
             }
         }
+    }
+}
+
+@media(max-width: 600px) {
+    #sociais {
+        display: none;
     }
 }

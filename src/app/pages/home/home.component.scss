@@ -2,6 +2,8 @@
     color: #FFF;
     height: 100%;
 
+    margin: 25px 0;
+
     .presentation {
         display: flex;
         flex-direction: column;
@@ -9,7 +11,7 @@
         width: 90%;
         height: 100%;
         max-width: 1000px;
-        min-height: 75vh;
+        min-height: calc(100vh - 121px - 72px - 50px);
         margin: 0 auto;
         font-size: 2.5rem;
 

@@ -2,9 +2,11 @@
     font-size: 2rem;
     margin: 0 auto;
     color: white;
-    width: 50%;
-    height: 75vh;
-    margin: 0 auto;
+
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    min-height: calc(100vh - 121px - 72px - 50px);
 
     display: flex;
     flex-direction: column;
@@ -14,7 +16,7 @@
 
     p {
         font-size: 1.3rem;
-        max-width: 60%;
+        text-align: justify;
     }
 
     .tech {
