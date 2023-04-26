@@ -33,7 +33,7 @@
             font-size: 1.2rem;
             text-align: left;
 
-            max-width: 50%;
+            max-width: 500px;
         }
 
         .downloadcv {
@@ -96,28 +96,26 @@
     }
 }
 
-@media(max-width: 1700px) {
+// big tablet
+@media(max-width: 1024px) {
     #container {
-        .presentation {
-            font-size: 1rem;
 
+        .presentation {
+            // min-height: calc(100vh - 205.19px - 72px - 50px);
+
+            width: 80%;
+    
             .description {
-                font-size: 0.8rem;
+                font-size: 1.4rem;
+
                 max-width: 100%;
             }
         }
     }
 }
 
-// with zoom
-@media(max-width: 1700px) {
-    #container {
-        height: 70vh;
-    }
-}
-
 // mobile
-@media(max-width: 480px) {
+@media(max-width: 540px) {
     #container {
         .presentation {
             font-size: 1.8rem;
@@ -132,9 +130,3 @@
         }
     }
 }
-
-// @media(max-width: 700px) {
-//     .presentation {
-//         font-size: 0.5rem;
-//     }
-// }
