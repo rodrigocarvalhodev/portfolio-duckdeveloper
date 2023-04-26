@@ -26,34 +26,47 @@ footer {
             li {
                 list-style-type: none;
 
-                a {
-                    span {
-                        font-size: 1.5rem;
-                        padding: 15px;
-                        border: 1px solid #fff;
-                        border-radius: 50%;
-                    }
+                a > span {
+                    font-size: 1.5rem;
+                    padding: 15px;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
                 }
             }
         }
     }
 
     #copyright {
-        p {
-            a {
-                cursor: pointer;
-                font-weight: 400;
-                color: #9030ce;
-                text-decoration: none;
-            }
+        p > a {
+            cursor: pointer;
+            font-weight: 400;
+            color: #9030ce;
+            text-decoration: none;
         }
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 850px) {
     footer {
         #sociais {
             display: flex;
         }
+    }
+}
+
+// mobile mini
+@media(max-width: 350px) {
+    footer {
+
+        #sociais {
+            ul {
+                gap: 15px;
+                li > a > span {
+                    font-size: 1.20rem;
+                }
+            }
+        }
+
+        font-size: 0.8rem;
     }
 }

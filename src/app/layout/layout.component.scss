@@ -47,7 +47,8 @@ main {
     }
 }
 
-@media(max-width: 600px) {
+// mobile
+@media(max-width: 850px) {
     #sociais {
         display: none;
     }
