@@ -14,7 +14,7 @@ footer {
 
     text-align: center;
 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 
     #sociais {
         display: none;
@@ -39,17 +39,22 @@ footer {
     #copyright {
         p > a {
             cursor: pointer;
-            font-weight: 400;
+            font-weight: 500;
             color: #9030ce;
             text-decoration: none;
         }
     }
 }
 
+// mobile
 @media(max-width: 850px) {
     footer {
         #sociais {
             display: flex;
+        }
+
+        #copyright > p > a {
+            font-weight: 900;
         }
     }
 }
