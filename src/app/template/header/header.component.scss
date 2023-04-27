@@ -87,13 +87,14 @@ header {
         gap: 20px;
 
         a {
+            font-size: 1.2rem;
             color: #9030ce;
             border: 1px solid rgba(144, 48, 206, 0.4);
             border-radius: 8px;
             padding: 15px;
             transition: 0.45s;
             text-decoration: none;
-            font-weight: 400;
+            font-weight: 900;
         }
     
         a:hover {

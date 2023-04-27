@@ -39,7 +39,7 @@ footer {
     #copyright {
         p > a {
             cursor: pointer;
-            font-weight: 500;
+            font-weight: 900;
             color: #9030ce;
             text-decoration: none;
         }
@@ -51,10 +51,6 @@ footer {
     footer {
         #sociais {
             display: flex;
-        }
-
-        #copyright > p > a {
-            font-weight: 900;
         }
     }
 }
