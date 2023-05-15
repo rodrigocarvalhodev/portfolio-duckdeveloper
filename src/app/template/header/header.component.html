@@ -7,15 +7,19 @@
     <nav id="navbar" [ngClass]="burgerOpened ? 'active' : ''">
         <ul>
             <li>
-                <a [ngClass]="routerLink === '/home' ? 'line' : ''" routerLink="/">Inicio</a>
+                <a [ngClass]="routerLink === '/home' ? 'line' : ''" routerLink="/">Home</a>
             </li>
 
             <li>
-                <a [ngClass]="routerLink === '/about' ? 'line' : ''" routerLink="/about">Sobre mim</a>
+                <a [ngClass]="routerLink === '/about' ? 'line' : ''" routerLink="/about">About</a>
             </li>
 
             <li>
-                <a [ngClass]="routerLink === '/projects' ? 'line' : ''" routerLink="/projects">Projetos</a>
+                <a [ngClass]="routerLink === '/projects' ? 'line' : ''" routerLink="/projects">Projects</a>
+            </li>
+
+            <li>
+                <a [ngClass]="routerLink === '/blog' ? 'line' : ''" routerLink="/blog">Blog</a>
             </li>
         </ul>
     </nav>
@@ -25,6 +29,6 @@
     </button>
 
     <div id="buttons">
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=5527992932191&text=Ol%C3%A1!%20vim%20do%20site%20Duck%20Developer">Contato</a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5527992932191&text=Hi!">Contact</a>
     </div>
 </header>
