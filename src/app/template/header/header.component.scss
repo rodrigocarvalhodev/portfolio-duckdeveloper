@@ -23,7 +23,7 @@ header {
         }
 
         a:hover {
-            color: #9030ce;
+            color: #9943d1;
             transition: 0.3s;
         }
     }
@@ -58,7 +58,7 @@ header {
 
                 a:hover:before, a.line:before {
                     visibility: visible;
-                    background-color: #9030ce;
+                    background-color: #9943d1;
                     bottom: -8px;
                     position: absolute;
                     content: '';
@@ -88,7 +88,7 @@ header {
 
         a {
             font-size: 1.2rem;
-            color: #9030ce;
+            color: #9943d1;
             border: 1px solid rgba(144, 48, 206, 0.4);
             border-radius: 8px;
             padding: 15px;
@@ -102,7 +102,7 @@ header {
         }
 
         button {
-            background-color: #9030ce;
+            background-color: #9943d1;
             padding: 15px;
             color: white;
             border-radius: 20px;
@@ -112,7 +112,7 @@ header {
         }
 
         button:hover {
-            color: #9030ce;
+            color: #9943d1;
             background-color: #FFF;
             transition: 0.5s;
         }
