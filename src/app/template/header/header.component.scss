@@ -7,8 +7,6 @@ header {
 
     margin: 0 auto;
 
-    background-color: #272727;
-
     & > #logo {
         a {
             text-decoration: none;
@@ -115,7 +113,7 @@ header {
 
         button:hover {
             color: #9943d1;
-            background-color: #FFF;
+            background-color: #eaeaef;
             transition: 0.5s;
         }
     }
